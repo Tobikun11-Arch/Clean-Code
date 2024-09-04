@@ -1,15 +1,10 @@
+import React from 'react'
+import TanStack from './Tanstack Query/tanStack'
 
-import React from "react";
-import AuthForm from "./Auth/authForm";
-
-
-export default function Home() {
-
- 
-
+export default function page() {
   return (
-   <>
-    <AuthForm/>
-   </>
-  );
+    <div className='w-full h-screen '>
+      <TanStack/>
+    </div>
+  )
 }
